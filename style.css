@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+.dial {
+  height: 400px;
+  width: 400px;
+}
+body{
+    background: linear-gradient(90deg,lightcoral,lightblue);
+    display:flex;
+    justify-content: center;
+}
+.timer {
+    margin-top: 100px;
+  display: inline-block;
+  position: relative;
+}
+.controls {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 36px;
+}
+#duration {
+  margin: 0;
+  width: 240px;
+  font-size: 90px;
+  border: none;
+  display: block;
+  text-align: center;
+  background: transparent;
+  }
+#start{
+    margin-right: 20px;
+}
